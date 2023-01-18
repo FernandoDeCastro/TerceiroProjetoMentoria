@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(68, 170, 196);
+}
+
+.box {
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+}
