@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="stylesheet" href="OndaDeForma.css">
     <meta charset="UTF-8">
@@ -7,16 +8,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onda de Forma</title>
 </head>
+
 <body>
     <div class="box">
         <h1>Faça seu Login</h1>
-        <textarea name="email" id="email" cols="35" rows="1"></textarea>
-        <br>
-        <textarea name="senha" id="senha" cols="35" rows="1"></textarea>
-        <br>
-        <button id="login">Login</button>
-        <br>
-        <p>Não tem uma conta? <a href="">Registre-se</a></p>
-    </div>   
+        <form action="">
+            <div class="entrada">
+                <input type="text" required>
+                <label>Email</label>
+            </div>
+            <div class="entrada">
+                <input type="senha" required>
+                <label>Senha</label>
+                <label>
+            <span style="transition-delay: 0ms">E</span>
+              <span style="transition-delay: 50ms">m</span>
+              <span style="transition-delay: 100ms">a</span>
+              <span style="transition-delay: 150ms">i</span>
+              <span style="transition-delay: 200ms">l</span>
+        </label>
+            </div>
+                <button id="btn">Login</button>
+                <p id="texto">Não tem uma conta? <a href="">Registre-se</a></p>
+        </form>
+    </div>
+    <script src="OndaDeForma.js"></script>
 </body>
+
 </html>
