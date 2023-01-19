@@ -1,9 +1,26 @@
 body {
+    margin: 0px;
     background-color: rgb(68, 170, 196);
+    color: white;
 }
 
 .box {
     background-color: blue;
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 300px;
+    margin: 10% auto;
+    padding: 20px;
+}
+
+.box h1, textarea, button, p {
+    margin: 10px auto;
+}
+
+#login {
+    padding: 10px 122px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
 }
